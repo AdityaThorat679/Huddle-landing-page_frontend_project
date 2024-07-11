@@ -116,7 +116,7 @@ pipeline {
         stage("Bulid"){
             steps {
                 echo "Bulid the image"
-                sh "docker build -t url-shortening-api ."
+                sh "docker build -t huddle-landing-page ."
             }
         }
         stage("Deploy"){
